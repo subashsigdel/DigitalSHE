@@ -1,0 +1,14 @@
+#page-5 div {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#page-5 .message_head {
+    width: inherit;
+    display: grid;
+    place-items: start;
+    padding-bottom: 50px;
+    margin-right: 800px;
+}

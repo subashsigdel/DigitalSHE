@@ -1,0 +1,26 @@
+/* Defualt styles for all pages */
+
+main .page {
+    min-height: 100vh;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+}
+
+.page:nth-child(2n) {
+    background-color: rgb(255, 255, 255);
+}
+
+.page .container {
+    width: 70%;
+    margin: 0 auto;
+    /* padding: 110px 0; */
+}
+
+.container > h3 {
+    display: table;
+    width: fit-content;
+    margin-bottom: 5rem;
+    border-bottom: palevioletred 1px solid;
+    text-transform: uppercase;
+}
