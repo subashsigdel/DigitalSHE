@@ -5,14 +5,6 @@ box-sizing: border-box;
 text-decoration: none;
 font-family: "Nunito Sans", sans-serif;
 }
-:root {
-    /* Hide Scrollbar */
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-:root::-webkit-scrollbar {
-    display: none;
-}
 html {
     scroll-behavior: smooth;
 }
@@ -34,7 +26,7 @@ header .nav_bar {
     top: 0;
     text-decoration: none;
     left: 0;
-    /* z-index: 1000; */
+    z-index: 1000;
     background-color:rgb(220, 255, 252);
 }
 /* .sticky {

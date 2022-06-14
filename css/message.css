@@ -9,6 +9,9 @@
     width: inherit;
     display: grid;
     place-items: start;
-    padding-bottom: 50px;
-    margin-right: 800px;
+    margin-right: 700px;
+}
+#page-5 img{
+    border-radius: 100%;
+    margin-bottom: 80px;
 }

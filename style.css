@@ -11,11 +11,6 @@
 }
 
 :root {
-    --primaryTextColor:black;
-    --secondaryTextColor:pink;
-    --firstBackgroundColor: rgb(250, 245, 248);
-    --secondBackgroundColor:rgb(202, 200, 200);
-    --hoverColor: rgb(96, 240, 132);
     /* Hide Scrollbar */
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -59,95 +54,13 @@ p {
     font-size: 1.1rem;
 }
 
-button {
-    background: transparent;
-    border: none;
-}
 
-button i {
-    font-size: 2rem;
-}
-
-.btn {
-    margin-top: 100px;
-    font-size: 1.3rem;
-    background-color: var(--secondaryTextColor);
-    width: 200px;
-    height: 70px;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-    color: var(--primaryTextColor);
-    transition: 0.4s;
-}
-
-.btn::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: var(--hoverColor);
-    width: 0%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.6;
-    transition: 0.3s;
-}
-
-.btn:hover::after {
-    width: 100%;
-}
-
-.btn:hover {
-    color: #020202;
-}
 
 body {
     background-color: #e8f7fd;
     line-height: 2;
     color: var(--primaryTextColor);
 }
-
-/* Navbar */
-
-nav {
-    display: flex;
-    padding: 0 55%;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    /* background-color: var(--secondBackgroundColor); */
-}
-
-nav button {
-    color: var(--firstTextColor);
-    display: none;
-}
-
-nav button:active {
-    color: var(--hoverColor);
-}
-
-nav ul {
-    display: flex;
-    gap: 2rem;
-    transition: 0.5s;
-}
-
-.nav-links a {
-    color: var(--firstTextColor);
-    font-size: 1.2rem;
-}
-
-.nav-links a:hover {
-    color: var(--secondaryTextColor);
-}
-
 /* Home page */
 
 .home-content .home-text {
@@ -246,6 +159,20 @@ nav ul {
     flex-basis: 60%;
     color: blueviolet;
 }
+/* page-2 */
+#page-2{
+    min-height: 0;
+    background-color: #e8f7fd;;
+    padding-bottom: 100px;
+
+}
+
+/* page 3 */
+#page-3{
+    min-height: 0;
+    background-color: #e8f7fd;
+    padding-bottom: 700px;
+}
 /* page 5 */
 #page-5{
     background-color: #d3eff8;
@@ -255,7 +182,7 @@ nav ul {
 
 #page-4 {
     min-height: 0;
-    background-color: #e8f7fd;
+    background-color: #d3eff8;
     padding-bottom: 100px;
 }
 
